@@ -1,0 +1,24 @@
+@import url(../style/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url(./header.css);
+@import url(./conteudo.css);
+@import url(./rodape.css);
+
+
+:root {
+    --fundo-principal: #eae385;
+    --fundo-cabecalho: #c7a122;
+    --cor-botao: #3DA4AB;
+    --fundo-rodape: #252525;
+    --fundo-pesquisa:  #ece8b0;
+    --efeito-hover: #bcb77b;
+    --borda-imagem:  #524f4f;
+    --fonte-principal:  'Inter', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+    --cor-titulo:  rgb(103, 95, 95)
+}
+
+body {
+    font-family: var(--fonte-principal);
+}

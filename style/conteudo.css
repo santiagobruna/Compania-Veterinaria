@@ -1,0 +1,112 @@
+.conteudo__principal {
+    background: var(--fundo-principal);
+    font-family: var(--fonte-secundaria);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    gap: 45px;
+}
+
+.conteudo__principal__divisao {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo__principal__terciario {
+    background: var(--fundo-principal);
+    font-family: var(--fonte-secundaria);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    gap: 43px;
+    height: 100%;
+}
+.conteudo__titulo {
+    font-size: 26px;
+    color: var(--cor-titulo);
+    font-weight: 700;
+    margin-top: 3em;
+}
+
+.conteudo__texto {
+    width: 79%;
+    text-align: justify;
+}
+
+
+.container__imagem__conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo__principal__imagem {
+    width: 70%;
+    border: 2px solid var( --borda-imagem);
+}
+
+.conteudo__principal__link {
+    text-decoration: none;
+}
+
+.lista__conteudo__link {
+    text-decoration: none;
+    color:  rgb(103, 95, 95) ;
+    background-color: rgb(177, 199, 191);
+    padding: 10px;
+    margin-right: 27px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.lista__conteudo__link:hover {
+    color:  rgb(45, 39, 39) ;
+    background-color: rgb(221, 221, 68);
+}
+
+.conteudo__principal__imagem__terciario{
+    width: 30%;
+    border: 2px solid var( --borda-imagem);
+}
+
+.container__imagem__conteudo__terciario{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 1em 3em 1em;
+}
+
+@media (min-width: 1024px) {
+    .conteudo__principal {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .conteudo__titulo {
+        font-size: 30px;
+    }
+
+    .conteudo__texto {
+        font-size: 19px;
+    }
+
+    .conteudo__principal__imagem {
+        width: 80%;
+    }
+
+    .conteudo__principal__terciario {
+        height: 100vh;
+    }
+
+    .conteudo__principal__divisao {
+        gap: 48px;
+    }
+}    
