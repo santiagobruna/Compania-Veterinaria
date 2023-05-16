@@ -25,10 +25,11 @@
     height: 100%;
 }
 .conteudo__titulo {
-    font-size: 26px;
+    font-size: 18px;
     color: var(--cor-titulo);
     font-weight: 700;
     margin-top: 3em;
+    text-align: center;
 }
 
 .conteudo__texto {

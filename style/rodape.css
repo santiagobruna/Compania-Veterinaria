@@ -3,9 +3,12 @@
     justify-content: space-around;
     background-color: var(--fundo-rodape);
     align-items: center;
-    padding-bottom: 4em;
+    padding-bottom: 7em;
 }
 
+.rodape__lista:nth-child(3) {
+    display: none;
+}
 .rodape__titulo {
     color: white;
     font-size: 26px;
@@ -33,4 +36,12 @@
     color: var(--efeito-hover);
     background-color: #4f4545;
     padding: 0.3em;
+}
+
+@media  (min-width: 1024px) {
+    
+    .rodape__lista:nth-child(3) {
+        display: block;
+    }
+        
 }
